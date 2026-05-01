@@ -1,4 +1,4 @@
-# Aroma Coffee Landing Page ☕
+# ☕ Brewed Awakening — Coffee Landing Page
 
 A modern, responsive landing page for a coffee shop/brand built with HTML, CSS, and vanilla JavaScript.
 
