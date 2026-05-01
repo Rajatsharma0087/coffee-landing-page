@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Brewed Awakening - Premium artisan coffee crafted with passion. Discover our finest blends." />
+  <title>Brewed Awakening ☕ | Premium Artisan Coffee</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo">
+        <i class="fas fa-mug-hot"></i> Brewed<span>Awakening</span>
+      </a>
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1 class="fade-in">Wake Up & <span>Smell the Coffee</span></h1>
+      <p class="fade-in delay-1">Hand-crafted blends from the world's finest beans, roasted to perfection just for you.</p>
+      <div class="hero-buttons fade-in delay-2">
+        <a href="#menu" class="btn btn-primary">Explore Menu</a>
+        <a href="#about" class="btn btn-secondary">Our Story</a>
+      </div>
+    </div>
+    <a href="#about" class="scroll-down"><i class="fas fa-chevron-down"></i></a>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="container about-grid">
+      <div class="about-image">
+        <img src="images/coffee-beans.jpg" alt="Premium roasted coffee beans" />
+      </div>
+      <div class="about-text">
+        <span class="subtitle">Our Story</span>
+        <h2>Crafted With Passion Since 2010</h2>
+        <p>At Brewed Awakening, we believe coffee is more than a drink — it's a ritual. We source single-origin beans from sustainable farms across Ethiopia, Colombia, and Brazil, then small-batch roast them in-house to unlock unforgettable flavor.</p>
+        <p>From the first sip to the last, every cup tells a story of dedication, quality, and love for the craft.</p>
+        <div class="stats">
+          <div class="stat"><h3>14+</h3><p>Years of Experience</p></div>
+          <div class="stat"><h3>50+</h3><p>Coffee Varieties</p></div>
+          <div class="stat"><h3>10K+</h3><p>Happy Customers</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section class="menu section" id="menu">
+    <div class="container">
+      <div class="section-header">
+        <span class="subtitle">Our Specialties</span>
+        <h2>Signature Coffee Menu</h2>
+      </div>
+      <div class="menu-grid">
+        <div class="menu-card">
+          <div class="menu-icon"><i class="fas fa-mug-hot"></i></div>
+          <h3>Espresso</h3>
+          <p>Bold, intense, and aromatic — pure coffee in its richest form.</p>
+          <span class="price">$3.50</span>
+        </div>
+        <div class="menu-card featured">
+          <div class="badge">Popular</div>
+          <div class="menu-icon"><i class="fas fa-coffee"></i></div>
+          <h3>Cappuccino</h3>
+          <p>Velvety steamed milk meets espresso topped with airy foam.</p>
+          <span class="price">$4.75</span>
+        </div>
+        <div class="menu-card">
+          <div class="menu-icon"><i class="fas fa-wine-glass"></i></div>
+          <h3>Latte</h3>
+          <p>Smooth espresso blended with creamy steamed milk.</p>
+          <span class="price">$5.00</span>
+        </div>
+        <div class="menu-card">
+          <div class="menu-icon"><i class="fas fa-ice-cream"></i></div>
+          <h3>Iced Mocha</h3>
+          <p>Chocolate, espresso, and milk over ice — pure indulgence.</p>
+          <span class="price">$5.50</span>
+        </div>
+        <div class="menu-card">
+          <div class="menu-icon"><i class="fas fa-glass-whiskey"></i></div>
+          <h3>Cold Brew</h3>
+          <p>Slow-steeped 18 hours for a smooth, naturally sweet flavor.</p>
+          <span class="price">$4.95</span>
+        </div>
+        <div class="menu-card">
+          <div class="menu-icon"><i class="fas fa-leaf"></i></div>
+          <h3>Matcha Latte</h3>
+          <p>Stone-ground Japanese matcha with steamed oat milk.</p>
+          <span class="price">$5.25</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features section" id="features">
+    <div class="container">
+      <div class="section-header">
+        <span class="subtitle">Why Choose Us</span>
+        <h2>The Brewed Difference</h2>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <i class="fas fa-seedling"></i>
+          <h3>Ethically Sourced</h3>
+          <p>Direct trade with farmers ensuring fair wages and sustainable practices.</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-fire"></i>
+          <h3>Fresh Roasted</h3>
+          <p>Small-batch roasted daily for peak flavor and aroma.</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-award"></i>
+          <h3>Award Winning</h3>
+          <p>Recognized by SCA for excellence in specialty coffee three years running.</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-truck"></i>
+          <h3>Fast Delivery</h3>
+          <p>Free shipping on orders over $30 — fresh beans at your doorstep.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials section" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="subtitle">Testimonials</span>
+        <h2>What Our Customers Say</h2>
+      </div>
+      <div class="testimonial-grid">
+        <div class="testimonial">
+          <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p>"Best coffee I've had in years! The Ethiopian blend is absolutely divine. I'm a customer for life."</p>
+          <div class="customer">
+            <div class="avatar">SM</div>
+            <div><h4>Sarah Mitchell</h4><span>Coffee Enthusiast</span></div>
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p>"The cold brew is unmatched. Smooth, rich, and perfect every single morning. Highly recommend!"</p>
+          <div class="customer">
+            <div class="avatar">JD</div>
+            <div><h4>James Donovan</h4><span>Daily Regular</span></div>
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p>"Cozy atmosphere, incredible baristas, and coffee that feels like a warm hug. My favorite spot in town."</p>
+          <div class="customer">
+            <div class="avatar">EL</div>
+            <div><h4>Emma Lopez</h4><span>Local Foodie</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <span class="subtitle">Get In Touch</span>
+        <h2>Visit Us or Drop a Line</h2>
+        <p>We'd love to hear from you. Whether it's a question, feedback, or just to say hi over a cup.</p>
+        <ul class="contact-details">
+          <li><i class="fas fa-map-marker-alt"></i> Mall Road, Shimla, Himachal Pradesh, 171001, India</li>
+          <li><i class="fas fa-phone"></i> +91 9876543211</li>
+          <li><i class="fas fa-envelope"></i> hello@brewedawakening.com</li>
+          <li><i class="fas fa-clock"></i> Mon - Sat: 9:00 AM - 8:00 PM</li>
+        </ul>
+        <div class="socials">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm" action="https://formspree.io/f/xdabojgj" method="POST">
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Your Name" required />
+        </div>
+        <div class="form-group">
+          <input type="email" name="email" placeholder="Your Email" required />
+        </div>
+        <div class="form-group">
+          <input type="text" name="subject" placeholder="Subject" required />
+        </div>
+        <div class="form-group">
+          <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">
+          <span>Send Message</span> <i class="fas fa-paper-plane"></i>
+        </button>
+        <p class="form-status" id="formStatus"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3 class="logo"><i class="fas fa-mug-hot"></i> Brewed<span>Awakening</span></h3>
+        <p>Brewing happiness, one cup at a time.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Newsletter</h4>
+        <p>Subscribe for exclusive offers & brews.</p>
+        <form class="newsletter">
+          <input type="email" placeholder="Enter your email" required />
+          <button type="submit"><i class="fas fa-arrow-right"></i></button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Brewed Awakening. All rights reserved. Made with <i class="fas fa-heart"></i> & coffee.</p>
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP -->
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
