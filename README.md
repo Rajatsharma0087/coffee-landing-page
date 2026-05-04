@@ -1,5 +1,11 @@
 # ☕ Brewed Awakening — Coffee Landing Page
 
+# ☕ Coffee Shop Landing Page
+
+![Preview](./preview.png)
+
+Live site → https://rajatsharma0087.github.io/coffee-landing-page/
+
 A modern, responsive landing page for a coffee shop/brand built with HTML, CSS, and vanilla JavaScript.
 
 ## Features
